@@ -12,8 +12,8 @@ const SignInScreen = () => {
     return (
         <View style={tw`flex items-center p-5`}>
             <Image style={[styles.logo, {height: height * 0.3}]} resizeMode="contain" source={Logo} />
-            <CustomInput placeholder={"Username"} value={username} setValue={setUsername}  />
-            <CustomInput placeholder={"Password"} value={password} setValue={setPassword} />
+            <CustomInput placeholder={"Username"} value={username} secureTextEntry={false} setValue={setUsername}  />
+            <CustomInput placeholder={"Password"} value={password} secureTextEntry={true} setValue={setPassword} />
         </View>
     );
 };
