@@ -5,7 +5,7 @@ import tw from "tailwind-react-native-classnames";
 export default function App() {
   return (
     <View style={tw`flex flex-1 items-center justify-center`}>
-      <Text>This is the authentication 🔥</Text>
+      <Text style={tw`text-xl`}>This is the authentication 🔥</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -13,4 +13,4 @@ export default function App() {
 
 const styles = StyleSheet.create({
 
-});
+})
