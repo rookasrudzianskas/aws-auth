@@ -5,12 +5,12 @@ import SignInScreen from "./src/screens/SignInScreen";
 
 export default function App() {
   return (
-      <SafeAreaView>
-        <View style={tw`flex flex-1`}>
+      // <SafeAreaView>
+        <View style={tw`flex flex-1 bg-gray-100`}>
           <SignInScreen />
           <StatusBar style="auto" />
         </View>
-      </SafeAreaView>
+      // </SafeAreaView>
   );
 }
 
