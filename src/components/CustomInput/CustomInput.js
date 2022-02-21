@@ -18,7 +18,6 @@ export default CustomInput;
 
 const styles= StyleSheet.create({
     container: {
-
     },
     input: {
 
